@@ -11,7 +11,7 @@ public class Weather {
 
     //e82997d4390e599a76106b600f72a4ca
     public static String getWeather(String message, Model model) throws IOException {
-        URL url = new URL("https://api.openweathermap.org/data/2.5/weather?q=" + message + "&units=metric&appid=e82997d4390e599a76106b600f72a4ca");
+        URL url = new URL("https://api.openweathermap.org/data/2.5/weather?q=" + message + "&units=metric&appid=***");
 
         Scanner in = new Scanner((InputStream) url.getContent());
         String result = "";
